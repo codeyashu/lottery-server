@@ -1,0 +1,1 @@
+React server to interact with lottery contract.

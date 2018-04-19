@@ -7,7 +7,7 @@ import web3 from './web3';
 
 const address = ' ';
 
-const abi = 0;
+const abi = [];
 
 // Use address and abi to create local contract instance using web3 library
 // This local copy acts as abstraction of deployed contract

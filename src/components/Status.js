@@ -9,7 +9,7 @@ class Status extends Component {
     render() {
         return (
             <div className="Status">
-                Loading...
+                { this.props.status_message }
             </div>
         );
     };

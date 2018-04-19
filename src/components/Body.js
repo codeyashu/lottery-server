@@ -10,9 +10,11 @@ class Body extends Component {
     render() {
         return (
             <div className="Body">
-                Body
+                <h3>Enter the lottery with minimum of 0.01 ether. </h3 >
+
+                <h3 > Pick a winner </h3>
             </div>
-        );
+        );    
     };
 };
 

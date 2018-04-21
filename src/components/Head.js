@@ -9,8 +9,9 @@ class Head extends Component {
 
     render () {
         return (
-            <div className="Head">
-                Currently there sre ___ people with ___ ether to win.
+            <div className="Head col-md-4">
+                <h4> Current Contract Manager: {this.props.manager} </h4> <br />
+                Currently there are {this.props.player_count} players with {this.props.balance} ether at stake.
             </div>
         );
     };

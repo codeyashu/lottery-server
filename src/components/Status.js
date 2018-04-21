@@ -8,7 +8,7 @@ class Status extends Component {
     }
     render() {
         return (
-            <div className="Status">
+            <div className="Status col-md-8">
                 { this.props.status_message }
             </div>
         );

@@ -9,7 +9,7 @@ class Head extends Component {
 
     render () {
         return (
-            <div className="Head col-md-4">
+            <div className="Head col-md-8">
                 <h4> Current Contract Manager: {this.props.manager} </h4> <br />
                 Currently there are {this.props.player_count} players with {this.props.balance} ether at stake.
             </div>

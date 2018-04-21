@@ -9,9 +9,12 @@ class Body extends Component {
 
     render() {
         return (
-            <div className="Body">
+            <div className="Body col-md-8">
                 <h3>Enter the lottery with minimum of 0.01 ether. </h3 >
-
+                <form> 
+                    <input />
+                    <button> ENTER </button>
+                </form>
                 <h3 > Pick a winner </h3>
             </div>
         );    
